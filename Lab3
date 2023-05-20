@@ -85,7 +85,8 @@ comp = 1
 for i in range(n // 4, half_n):
     for j in range(half_n - i - 1, i + 1):
         comp *= matE[i][j]
-
+if len(matE) >= 5:
+    comp //= 2
 print('Сумма чисел, больших K, в нечетных столбцах области 3:', odd_col_sum)
 print('Произведение чисел по периметру области 2:', comp)
 
