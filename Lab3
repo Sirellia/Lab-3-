@@ -50,7 +50,7 @@ if ans not in ['1']:
         ans = input('для использования случайно сгенерированной матрицы напишите 1: ')
 
 if ans == '1':
-    matA = [[random.randint(-10, 10) for _ in range(n)] for _ in range(n)]
+    matA = [[random.randint(2, 3) for _ in range(n)] for _ in range(n)]
 
 print('Матрица А изначальная:')
 print_matrix(matA)
