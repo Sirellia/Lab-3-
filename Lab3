@@ -78,7 +78,7 @@ print_matrix(matE)
 odd_col_sum = 0
 for i in range(n // 4, half_n):
     for j in range(half_n - i - 1, i + 1):
-        if j % 2 != 0:
+        if j % 2 != 0 and matE[i][j] > K:
             odd_col_sum += matE[i][j]
 
 comp = 1
