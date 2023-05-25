@@ -45,7 +45,7 @@ if ans not in ['1', '2']:
 if ans == '1':
     matA = [[random.randint(-10, 10) for _ in range(n)] for _ in range(n)]
 if ans == '2':
-    matA = [[random.randint(2, 2) for _ in range(n)] for _ in range(n)]
+    matA = [[random.randint(1, 1) for _ in range(n)] for _ in range(n)]
 
 print('Матрица А изначальная:')
 print_matrix(matA)
