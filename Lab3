@@ -113,7 +113,6 @@ print_matrix(matF)
 
 matFt = matzero(n)
 
-# Создание матрицы F транспонированной
 matFt = [[matF[j][i] for j in range(n)] for i in range(n)]
 print('Транспонированная матрица F:')
 print_matrix(matFt)
